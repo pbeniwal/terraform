@@ -31,7 +31,7 @@ provider "aws" {
 
 
 resource "aws_instance" "ec2-instance" {
-   ami = "ami-09e7aedfda734b173"
+   ami = "ami-04bf6dcdc9ab498ca"
    instance_type = "t2.micro"
    count = 3
    tags = {
