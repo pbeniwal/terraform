@@ -1,11 +1,11 @@
 ### Important Note:
 
-Make sure to have the ec2-key.pem file present in the working directory for the provisioner to be able to connect to the instance.
+Make sure to have the aws.pem file present in the working directory for the provisioner to be able to connect to the instance.
 
 ### Demo Code Used During Demo:
 ```sh
 provider "aws" {
-  region     = "ap-southeast-1"
+  region     = "us-east-1"
   access_key = "YOUR-KEY"
   secret_key = "YOUR-KEY"
 }
@@ -25,9 +25,9 @@ resource "aws_security_group" "allow_ssh" {
 }
 
 resource "aws_instance" "myec2" {
-   ami = "ami-0b1e534a4ff9019e0"
+   ami = "ami-04bf6dcdc9ab498ca"
    instance_type = "t2.micro"
-   key_name = "ec2-key"
+   key_name = "aws"
    vpc_security_group_ids  = [aws_security_group.allow_ssh.id]
 
    provisioner "remote-exec" {
