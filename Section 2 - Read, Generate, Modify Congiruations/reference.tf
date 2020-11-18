@@ -22,7 +22,7 @@ resource "aws_eip_association" "eip_assoc" {
 
 
 resource "aws_security_group" "allow_tls" {
-  name        = "kplabs-security-group"
+  name        = "pb-security-group"
 
   ingress {
     from_port   = 443
