@@ -4,12 +4,12 @@
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
+  region     = "us-east-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
 
-resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "pb-user" {
   name = var.usernumber
   path = "/system/"
 }
@@ -23,12 +23,12 @@ Final Code:
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
+  region     = "us-east-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
 
-resource "aws_elb" "bar" {
+resource "aws_elb" "my-lb" {
   name               = var.elb_name
   availability_zones = var.az
 
@@ -53,7 +53,7 @@ resource "aws_elb" "bar" {
   connection_draining_timeout = var.timeout
 
   tags = {
-    Name = "foobar-terraform-elb"
+    Name = "terraform-elb"
   }
 }
 ```
@@ -81,5 +81,5 @@ variable "timeout" {
 ```sh
 elb_name="myelb"
 timeout="400"
-az=["us-west-1a","us-west-1b"]
+az=["us-east-1a","us-east-1b"]
 ```
