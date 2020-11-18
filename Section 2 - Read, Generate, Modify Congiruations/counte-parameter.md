@@ -4,18 +4,18 @@
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
+  region     = "us-east-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
 
-variable "elb_names" {
+variable "user_names" {
   type = list
-  default = ["dev-loadbalancer", "stage-loadbalanacer","prod-loadbalancer"]
+  default = ["dev-user", "stage-user","prod-user"]
 }
 
-resource "aws_iam_user" "lb" {
-  name = var.elb_names[count.index]
+resource "aws_iam_user" "iam_users" {
+  name = var.user_names[count.index]
   count = 3
   path = "/system/"
 }
@@ -24,7 +24,7 @@ resource "aws_iam_user" "lb" {
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
+  region     = "us-east-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
