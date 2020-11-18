@@ -29,24 +29,24 @@ The code mentioned in this document are used in the HashiCorp Certified Terrafor
 | 21 | [Terraform Settings][PlDt] |
 | 22 | [Dealing with Large Infrastructure][PlDu] |
 
-   [PlDa]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/attributes.tf>
-   [PlDb]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/reference.tf>
-   [PlDc]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/terraform-variables.md>
-   [PlDd]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/variable-assignment.md>
-   [PlDe]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/data-types.md>
-   [PlDf]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/counte-parameter.md>
-   [PlDg]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/conditional.md>
-    [PlDh]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/local-values.md>
-[PlDi]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/functions.md>
-[PlDj]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/data-sources.md>
-[PlDk]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/debugging.md>
-[PlDl]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/terraform-format.md>
-[PlDm]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read,%20Generate,%20Modify%20Congiruations/terraform-validate.md>
-[PlDo]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/dynamic-block.md>
-[PlDn]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/load-order.md>
-[PlDp]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/taint.md>
-[PlDq]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/splat-expression.md>
-[PlDr]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/graph.md>
-[PlDs]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/plan-to-file.md>
-[PlDt]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/settings.md>
-[PlDu]: <https://github.com/pbeniwal/terraform-beginner-to-advanced-resource/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/large-infra.md>
+   [PlDa]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/attributes.tf>
+   [PlDb]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/reference.tf>
+   [PlDc]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/terraform-variables.md>
+   [PlDd]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/variable-assignment.md>
+   [PlDe]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/data-types.md>
+   [PlDf]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/counte-parameter.md>
+   [PlDg]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/conditional.md>
+   [PlDh]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/local-values.md>
+[PlDi]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/functions.md>
+[PlDj]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/data-sources.md>
+[PlDk]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/debugging.md>
+[PlDl]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/terraform-format.md>
+[PlDm]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read,%20Generate,%20Modify%20Congiruations/terraform-validate.md>
+[PlDo]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/dynamic-block.md>
+[PlDn]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/load-order.md>
+[PlDp]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/taint.md>
+[PlDq]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/splat-expression.md>
+[PlDr]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/graph.md>
+[PlDs]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/plan-to-file.md>
+[PlDt]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/settings.md>
+[PlDu]: <https://github.com/pbeniwal/terraform/blob/master/Section%202%20-%20Read%2C%20Generate%2C%20Modify%20Congiruations/large-infra.md>
