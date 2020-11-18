@@ -5,7 +5,7 @@
 ```sh
 
 provider "aws" {
-  region     = "us-west-2"
+  region     = "us-east-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
@@ -17,6 +17,10 @@ resource "aws_iam_user" "lb" {
 
 output "arns" {
   value = aws_iam_user.lb[*].arn
+}
+
+output "names" {
+  value = aws_iam_user.lb[*].name
 }
 ```
 
