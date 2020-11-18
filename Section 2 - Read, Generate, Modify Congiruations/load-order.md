@@ -1,5 +1,6 @@
 
 ### ec2.tf
+
 ```sh
 
 resource "aws_instance" "myec2" {
