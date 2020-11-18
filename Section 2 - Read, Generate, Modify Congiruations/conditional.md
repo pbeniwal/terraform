@@ -13,13 +13,13 @@ provider "aws" {
 variable "istest" {}
 
 resource "aws_instance" "dev" {
-   ami = "ami-09e7aedfda734b173"
+   ami = "ami-04bf6dcdc9ab498ca"
    instance_type = "t2.micro"
    count = var.istest == true ? 3 : 0
 }
 
 resource "aws_instance" "prod" {
-   ami = "ami-09e7aedfda734b173"
+   ami = "ami-04bf6dcdc9ab498ca"
    instance_type = "t2.large"
    count = var.istest == false ? 1 : 0
 }
