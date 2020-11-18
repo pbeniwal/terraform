@@ -1,7 +1,12 @@
+provider "aws" {
+  region     = "us-east-1"
+  access_key = ""
+  secret_key = ""
+}
 resource "aws_instance" "myec2" {
-   ami = "ami-082b5a644766e0e6f"
+   ami = "ami-04bf6dcdc9ab498ca"
    instance_type = "t2.micro"
-   key_name = "kplabs-terraform"
+   key_name = "aws"
 
    provisioner "remote-exec" {
      inline = [
@@ -12,7 +17,7 @@ resource "aws_instance" "myec2" {
    connection {
      type = "ssh"
      user = "ec2-user"
-     private_key = file("./kplabs-terraform.pem")
+     private_key = file("./aws.pem")
      host = self.public_ip
    }
    }
