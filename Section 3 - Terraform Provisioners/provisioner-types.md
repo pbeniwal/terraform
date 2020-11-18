@@ -1,13 +1,13 @@
 ### Important Note:
 
-Make sure to have the ec2-key.pem file present in the working directory for the provisioner to be able to connect to the instance.
+Make sure to have the aws.pem file present in the working directory for the provisioner to be able to connect to the instance.
 
 ### Demo Code Used During Demo:
 
 
 ```sh
 provider "aws" {
-  region     = "ap-southeast-1"
+  region     = "us-east-1"
   access_key = "YOUR-KEY"
   secret_key = "YOUR-KEY"
 }
